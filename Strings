@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PMap</string>
+    <string name="p_map">P MAP</string>
+    <string name="button1">Button</string>
+    <string name="button2">Button</string>
+    <string name="button3">Button</string>
+    <string name="button4">Button</string>
+    <string name="admin">ADMIN</string>
+    <string name="labs">LABS</string>
+    <string name="classes">CLASS</string>
+    <string name="misc">MISC</string>
+</resources>
