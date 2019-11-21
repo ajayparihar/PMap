@@ -1,0 +1,34 @@
+package com.example.pmap;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+    public void openLab(View view) {
+        Intent i = new Intent(this,labs.class);
+        startActivity(i);
+    }
+
+    public void openClasses(View view) {
+        Intent i = new Intent(this,classes.class);
+        startActivity(i);
+    }
+    public void openAdmin(View view) {
+        Intent i = new Intent(this,admin.class);
+        startActivity(i);
+    }
+    public void openMisc(View view) {
+        Intent i = new Intent(this,misc.class);
+        startActivity(i);
+    }
+}
